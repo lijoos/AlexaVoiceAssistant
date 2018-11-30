@@ -4,6 +4,9 @@
 <div class="container">
 <div class="child">
 <router-outlet></router-outlet>
+<app-license *ngIf="id==='license'"></app-license>
+<app-employee *ngIf="id==='employee'"></app-employee>
 </div>
 </div>
-  <!--<h1 >{{ message | async | json }}</h1>-->
+
+  
